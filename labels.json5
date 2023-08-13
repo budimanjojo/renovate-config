@@ -4,43 +4,43 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "labels": ["type/major"]
+      "addLabels": ["type/major"]
     },
     {
       "matchUpdateTypes": ["minor"],
-      "labels": ["type/minor"]
+      "addLabels": ["type/minor"]
     },
     {
       "matchUpdateTypes": ["patch"],
-      "labels": ["type/patch"]
+      "addLabels": ["type/patch"]
     },
     {
       "matchUpdateTypes": ["digest"],
-      "labels": ["type/digest"]
+      "addLabels": ["type/digest"]
     },
     {
       "matchDatasources": ["docker"],
-      "labels": ["renovate/container"]
+      "addLabels": ["renovate/container"]
     },
     {
       "matchDatasources": ["helm"],
-      "labels": ["renovate/helm"]
+      "addLabels": ["renovate/helm"]
     },
     {
       "matchDatasources": ["terraform-provider"],
-      "labels": ["renovate/terraform"]
+      "addLabels": ["renovate/terraform"]
     },
     {
       "matchDatasources": ["galaxy-collection", "galaxy-role"],
-      "labels": ["renovate/ansible"]
+      "addLabels": ["renovate/ansible"]
     },
     {
       "matchManagers": ["github-actions"],
-      "labels": ["renovate/github-action"]
+      "addLabels": ["renovate/github-action"]
     },
     {
       "matchManagers": ["github-releases", "github-tags"],
-      "labels": ["renovate/github-release"]
+      "addLabels": ["renovate/github-release"]
     }
   ]
 }
