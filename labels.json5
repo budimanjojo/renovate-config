@@ -35,12 +35,16 @@
       "addLabels": ["renovate/ansible"]
     },
     {
+      "matchDatasources": ["github-releases", "github-tags"],
+      "addLabels": ["renovate/github-release"]
+    },
+    {
       "matchManagers": ["github-actions"],
       "addLabels": ["renovate/github-action"]
     },
     {
-      "matchManagers": ["github-releases", "github-tags"],
-      "addLabels": ["renovate/github-release"]
+      "matchManagers": ["gomod"],
+      "addLabels": ["renovate/go-module"]
     }
   ]
 }
