@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "commitMessagePrefix": "{{semanticCommitType}}({{semanticCommitScope}})!"
+      "commitMessagePrefix": "{{semanticCommitType}}({{semanticCommitScope}})!:"
     },
     {
       "matchDatasources": ["docker"],
